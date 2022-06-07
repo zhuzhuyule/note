@@ -1,1 +1,370 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T10:54:23.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" version="19.0.0" etag="PCEh-xlhdwGZaB72_pVd" type="github"><diagram id="NDkNhODu0Zi8zRZ41jJE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-07T17:18:30.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="bGfEwecYWG6eVS8Uk0td" version="19.0.0" type="github">
+  <diagram id="NDkNhODu0Zi8zRZ41jJE" name="Page-1">
+    <mxGraphModel dx="1335" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-117" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="460" width="820" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-115" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="650" width="170" height="400" as="geometry" />
+        </mxCell>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;预充值介绍&lt;br&gt;%createdAt%&lt;br&gt;price&lt;br&gt;&lt;/font&gt;" placeholders="1" type="Proposal" name="Name of the Proposal" createdAt="created_at" id="kX9uDYUjvXNdpoSycrI9-13">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66B3;noLabel=0;comic=0;recursiveResize=1;" vertex="1" parent="1">
+            <mxGeometry x="20" y="705" width="110" height="75" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;预充值协议&lt;br&gt;%createdAt%&lt;br&gt;price&lt;br&gt;&lt;/font&gt;" placeholders="1" type="Contract" name="Name of the Contract" createdAt="created_at" id="kX9uDYUjvXNdpoSycrI9-15">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66B3;noLabel=0;comic=0;recursiveResize=1;" vertex="1" parent="1">
+            <mxGeometry x="180" y="705" width="130" height="75" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="kX9uDYUjvXNdpoSycrI9-13" target="kX9uDYUjvXNdpoSycrI9-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="744.75" as="sourcePoint" />
+            <mxPoint x="170" y="744.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-17" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-16">
+          <mxGeometry x="-0.82" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-18" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-16">
+          <mxGeometry x="0.72" y="-1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;充值请求&lt;br&gt;start_at&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ffffff&quot;&gt;expired_at&lt;br&gt;amount&lt;br&gt;&lt;/font&gt;" placeholders="1" type="Fulfilment" name="Fulfilment Confirmation" createdAt="created_at" id="kX9uDYUjvXNdpoSycrI9-19">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66B3;noLabel=0;comic=0;recursiveResize=1;" vertex="1" parent="1">
+            <mxGeometry x="359" y="702.5" width="120" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="kX9uDYUjvXNdpoSycrI9-15" target="kX9uDYUjvXNdpoSycrI9-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="745" as="sourcePoint" />
+            <mxPoint x="440" y="745" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-21" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-20">
+          <mxGeometry x="-0.82" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-22" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-20">
+          <mxGeometry x="0.72" y="-1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="kX9uDYUjvXNdpoSycrI9-19" target="kX9uDYUjvXNdpoSycrI9-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="795" as="sourcePoint" />
+            <mxPoint x="529.3800000000001" y="742.4999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-24" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-23">
+          <mxGeometry x="-0.82" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-25" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-23">
+          <mxGeometry x="0.72" y="-1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;退款确认&lt;br&gt;paid_at&lt;br&gt;&lt;/font&gt;" placeholders="1" type="Fulfilment" name="Fulfilment Confirmation" createdAt="created_at" id="kX9uDYUjvXNdpoSycrI9-30">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66B3;noLabel=0;comic=0;recursiveResize=1;" vertex="1" parent="1">
+            <mxGeometry x="529.38" y="855" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;退款请求&lt;br&gt;start_at&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ffffff&quot;&gt;expired_at&lt;br&gt;amount&lt;br&gt;&lt;/font&gt;" placeholders="1" type="Fulfilment" name="Fulfilment Confirmation" createdAt="created_at" id="kX9uDYUjvXNdpoSycrI9-31">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66B3;noLabel=0;comic=0;recursiveResize=1;" vertex="1" parent="1">
+            <mxGeometry x="349.5" y="845" width="139" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="kX9uDYUjvXNdpoSycrI9-31" target="kX9uDYUjvXNdpoSycrI9-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="272.85999999999996" y="960" as="sourcePoint" />
+            <mxPoint x="272.85999999999996" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-34" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-33">
+          <mxGeometry x="-0.82" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-35" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-33">
+          <mxGeometry x="0.72" y="-1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="kX9uDYUjvXNdpoSycrI9-15" target="kX9uDYUjvXNdpoSycrI9-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="795" as="sourcePoint" />
+            <mxPoint x="265" y="895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-37" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-36">
+          <mxGeometry x="-0.82" relative="1" as="geometry">
+            <mxPoint x="-15" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-38" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-36">
+          <mxGeometry x="0.72" y="-1" relative="1" as="geometry">
+            <mxPoint x="14" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;结算扣款确认&lt;br&gt;paid_at&lt;br&gt;amount&lt;br&gt;&lt;/font&gt;" placeholders="1" type="Fulfilment" name="Fulfilment Confirmation" createdAt="created_at" id="kX9uDYUjvXNdpoSycrI9-41">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66B3;noLabel=0;comic=0;recursiveResize=1;" vertex="1" parent="1">
+            <mxGeometry x="529.38" y="555" width="120" height="70" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;结算扣款请求&lt;br&gt;start_at&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ffffff&quot;&gt;expired_at&lt;br&gt;amount&lt;br&gt;&lt;/font&gt;" placeholders="1" type="Fulfilment" name="Fulfilment Confirmation" createdAt="created_at" id="kX9uDYUjvXNdpoSycrI9-42">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66B3;noLabel=0;comic=0;recursiveResize=1;" vertex="1" parent="1">
+            <mxGeometry x="359" y="550" width="120" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="kX9uDYUjvXNdpoSycrI9-42" target="kX9uDYUjvXNdpoSycrI9-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="416.03" y="662.5" as="sourcePoint" />
+            <mxPoint x="416.03" y="762.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-45" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-44">
+          <mxGeometry x="-0.82" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-46" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-44">
+          <mxGeometry x="0.72" y="-1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="" n="1" m="*" id="kX9uDYUjvXNdpoSycrI9-47">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kX9uDYUjvXNdpoSycrI9-15" target="kX9uDYUjvXNdpoSycrI9-42">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="245" y="615" as="sourcePoint" />
+              <mxPoint x="245" y="615" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-48" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-47">
+          <mxGeometry x="0.1538" y="3" relative="1" as="geometry">
+            <mxPoint x="-44" y="103" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-49" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-47">
+          <mxGeometry x="0.1538" relative="1" as="geometry">
+            <mxPoint x="88" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;evidence&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot;&gt;&amp;gt;&lt;br&gt;退款凭证&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;%createdAt%&lt;/span&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="Fulfilment" name="Fulfilment Confirmation" createdAt="created_at" id="kX9uDYUjvXNdpoSycrI9-50">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66B3;noLabel=0;comic=0;recursiveResize=1;" vertex="1" parent="1">
+            <mxGeometry x="700" y="855" width="110" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kX9uDYUjvXNdpoSycrI9-30" target="kX9uDYUjvXNdpoSycrI9-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="649.38" y="885" as="sourcePoint" />
+            <mxPoint x="680" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-52" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-51">
+          <mxGeometry x="-0.82" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-53" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-51">
+          <mxGeometry x="0.72" y="-1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;evidence&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot;&gt;&amp;gt;&lt;br&gt;退款凭证&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;%createdAt%&lt;/span&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="Fulfilment" name="Fulfilment Confirmation" createdAt="created_at" id="kX9uDYUjvXNdpoSycrI9-59">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66B3;noLabel=0;comic=0;recursiveResize=1;" vertex="1" parent="1">
+            <mxGeometry x="700" y="520" width="110" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kX9uDYUjvXNdpoSycrI9-41" target="kX9uDYUjvXNdpoSycrI9-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="649.38" y="590" as="sourcePoint" />
+            <mxPoint x="660" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-66" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-65">
+          <mxGeometry x="-0.82" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-67" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-65">
+          <mxGeometry x="0.72" y="-1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;evidence&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#ffffff&quot;&gt;&amp;gt;&lt;br&gt;发票&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;%createdAt%&lt;/span&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="Fulfilment" name="Fulfilment Confirmation" createdAt="created_at" id="kX9uDYUjvXNdpoSycrI9-68">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66B3;noLabel=0;comic=0;recursiveResize=1;" vertex="1" parent="1">
+            <mxGeometry x="700" y="600" width="110" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="kX9uDYUjvXNdpoSycrI9-41" target="kX9uDYUjvXNdpoSycrI9-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="600" as="sourcePoint" />
+            <mxPoint x="580" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-70" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-69">
+          <mxGeometry x="-0.82" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-71" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-69">
+          <mxGeometry x="0.72" y="-1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&amp;lt;%type%&amp;gt;&lt;/span&gt;&lt;br style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;color: rgb(255, 255, 255);&quot;&gt;推广平台&lt;/b&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="party" name="Party" id="kX9uDYUjvXNdpoSycrI9-72">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#FFA033;" vertex="1" parent="1">
+            <mxGeometry x="450" y="615" width="70" height="35" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&amp;lt;%type%&amp;gt;&lt;/span&gt;&lt;br style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;color: rgb(255, 255, 255);&quot;&gt;客户&lt;/b&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="party" name="Party" id="kX9uDYUjvXNdpoSycrI9-73">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#FFA033;" vertex="1" parent="1">
+            <mxGeometry x="450" y="910" width="70" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&amp;lt;%type%&amp;gt;&lt;/span&gt;&lt;br style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;color: rgb(255, 255, 255);&quot;&gt;客户&lt;/b&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="party" name="Party" id="kX9uDYUjvXNdpoSycrI9-75">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#FFA033;" vertex="1" parent="1">
+            <mxGeometry x="610" y="610" width="70" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&amp;lt;%type%&amp;gt;&lt;/span&gt;&lt;br style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;color: rgb(255, 255, 255);&quot;&gt;推广平台&lt;/b&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="party" name="Party" id="kX9uDYUjvXNdpoSycrI9-77">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#FFA033;" vertex="1" parent="1">
+            <mxGeometry x="610" y="902.5" width="70" height="35" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&amp;lt;%type%&amp;gt;&lt;/span&gt;&lt;br style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;color: rgb(255, 255, 255);&quot;&gt;推广平台&lt;/b&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="party" name="Party" id="kX9uDYUjvXNdpoSycrI9-79">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#FFA033;" vertex="1" parent="1">
+            <mxGeometry x="450" y="762.5" width="70" height="35" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;&lt;b&gt;推广平台&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="party" name="Party" id="kX9uDYUjvXNdpoSycrI9-80">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#FFA033;" vertex="1" parent="1">
+            <mxGeometry x="110" y="850" width="70" height="35" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;&lt;b&gt;客户&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="party" name="Party" id="kX9uDYUjvXNdpoSycrI9-81">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#FFA033;" vertex="1" parent="1">
+            <mxGeometry x="110" y="590" width="70" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;思沃商场&lt;br&gt;&lt;/font&gt;" placeholders="1" type="party" name="Party" id="kX9uDYUjvXNdpoSycrI9-85">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#00994D;" vertex="1" parent="1">
+            <mxGeometry x="107.5" y="930" width="75" height="45" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-88" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kX9uDYUjvXNdpoSycrI9-85" target="kX9uDYUjvXNdpoSycrI9-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="142.5" y="860" as="sourcePoint" />
+            <mxPoint x="143" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-89" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="1" source="kX9uDYUjvXNdpoSycrI9-90" target="kX9uDYUjvXNdpoSycrI9-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="540" as="sourcePoint" />
+            <mxPoint x="210" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;b style=&quot;color: rgb(255, 255, 255);&quot;&gt;房产经纪人&lt;/b&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="party" name="Party" id="kX9uDYUjvXNdpoSycrI9-90">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#00994D;" vertex="1" parent="1">
+            <mxGeometry x="107.5" y="490" width="75" height="45" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.015;entryY=0.085;entryDx=0;entryDy=0;endArrow=none;endFill=0;entryPerimeter=0;" edge="1" parent="1" source="kX9uDYUjvXNdpoSycrI9-81" target="kX9uDYUjvXNdpoSycrI9-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="630" as="sourcePoint" />
+            <mxPoint x="145" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="145" y="710" />
+              <mxPoint x="182" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=-0.001;entryY=0.912;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kX9uDYUjvXNdpoSycrI9-80" target="kX9uDYUjvXNdpoSycrI9-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="750" as="sourcePoint" />
+            <mxPoint x="150" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;充值确认&lt;/span&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;%createdAt%&lt;br&gt;&lt;/font&gt;" placeholders="1" type="evidence" name="Evidence As Role" createdAt="created_at" id="kX9uDYUjvXNdpoSycrI9-97">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#FFA033;" vertex="1" parent="1">
+            <mxGeometry x="600" y="711.25" width="110" height="62.5" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;微信支付确认&lt;br&gt;paid_at&lt;br&gt;&lt;/font&gt;" placeholders="1" type="Fulfilment" name="Fulfilment Confirmation" createdAt="created_at" id="kX9uDYUjvXNdpoSycrI9-98">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66B3;noLabel=0;comic=0;recursiveResize=1;" vertex="1" parent="1">
+            <mxGeometry x="870" y="712.5" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;微信支付请求&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ffffff&quot;&gt;start_at&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ffffff&quot;&gt;expired_at&lt;br&gt;amoun&lt;/font&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="Fulfilment" name="Fulfilment Confirmation" createdAt="created_at" id="kX9uDYUjvXNdpoSycrI9-105">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66B3;noLabel=0;comic=0;recursiveResize=1;" vertex="1" parent="1">
+            <mxGeometry x="870" y="807.5" width="120" height="77.5" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" target="kX9uDYUjvXNdpoSycrI9-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="800" as="sourcePoint" />
+            <mxPoint x="920" y="743.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-107" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-106">
+          <mxGeometry x="-0.82" relative="1" as="geometry">
+            <mxPoint x="-4" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-108" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-106">
+          <mxGeometry x="0.72" y="-1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-110" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kX9uDYUjvXNdpoSycrI9-98" target="kX9uDYUjvXNdpoSycrI9-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="740" as="sourcePoint" />
+            <mxPoint x="1040" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;font color=&quot;#ffffff&quot;&gt;&amp;lt;%type%&amp;gt;&lt;br&gt;微信支付协议&lt;br&gt;%createdAt%&lt;br&gt;price&lt;br&gt;&lt;/font&gt;" placeholders="1" type="Contract" name="Name of the Contract" createdAt="created_at" id="kX9uDYUjvXNdpoSycrI9-111">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF66B3;noLabel=0;comic=0;recursiveResize=1;" vertex="1" parent="1">
+            <mxGeometry x="872.5" y="915" width="115" height="75" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="kX9uDYUjvXNdpoSycrI9-111" target="kX9uDYUjvXNdpoSycrI9-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="752.5" as="sourcePoint" />
+            <mxPoint x="1000" y="752.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-113" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-112">
+          <mxGeometry x="-0.82" relative="1" as="geometry">
+            <mxPoint x="-4" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-114" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kX9uDYUjvXNdpoSycrI9-112">
+          <mxGeometry x="0.72" y="-1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&amp;lt;%type%&amp;gt;&lt;/span&gt;&lt;br style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;color: rgb(255, 255, 255);&quot;&gt;客户&lt;/b&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;" placeholders="1" type="party" name="Party" id="kX9uDYUjvXNdpoSycrI9-78">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;noLabel=0;comic=0;recursiveResize=1;fillColor=#FFA033;" vertex="1" parent="1">
+            <mxGeometry x="690" y="757.5" width="70" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-116" value="微信支付上下文" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1010" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kX9uDYUjvXNdpoSycrI9-118" value="预支付上下文" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="349.5" y="1000" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
